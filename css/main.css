@@ -1,0 +1,56 @@
+.navclr{
+    background-color: #1687a7;
+    width: 100%;
+    line-height: 15vh;
+}
+
+body{
+    background-color: #f6f5f5;
+}
+
+.btn-info{
+    background-color: #1687a7;
+    color:#f6f5f5;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+section{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameArea{
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    background-color: #d3e0ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+input{
+    width: 40%;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    background-color: #f6f5f5;
+    color: #222222;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+
+.hidden{
+    display: none;
+}
